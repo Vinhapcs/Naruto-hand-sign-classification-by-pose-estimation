@@ -57,36 +57,14 @@ pip install -r requirements.txt
 python train.py --data_path /path/to/dataset --save_model model.pkl
 ```
 
-### Prediction
-
-```bash
-python predict.py --model model.pkl --image /path/to/image.jpg
-```
 
 ### Real-time Classification
 
 ```bash
-python realtime.py --model model.pkl
+python app.py --model model.pkl
 ```
 
-## Project Structure
 
-```
-├── data/
-│   ├── raw/               # Raw image dataset
-│   └── processed/         # Processed pose estimation features
-├── models/                # Saved model files
-├── notebooks/            
-│   └── exploration.ipynb  # Data exploration and model testing
-├── src/
-│   ├── data_processing.py # Dataset preparation scripts
-│   ├── pose_extraction.py # Pose estimation feature extraction
-│   ├── train.py           # Model training script
-│   ├── predict.py         # Single image prediction
-│   └── realtime.py        # Real-time webcam classification
-├── requirements.txt       # Project dependencies
-└── README.md              # Project documentation
-```
 
 ## Performance
 
