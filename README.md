@@ -14,6 +14,8 @@ This project identifies and classifies the 12 basic hand signs from the Naruto u
 - **Size**: Less than 400 images per class
 - **Variety**: Images captured from different angles to ensure model robustness
 
+The dataset is removed from the project but you can use any dataset with limited resources. Change the data path if necessary.
+
 ## Technical Approach
 
 ### Pose Estimation for Feature Extraction
